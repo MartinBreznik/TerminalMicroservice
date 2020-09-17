@@ -1,0 +1,39 @@
+.tableContainer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tableOfTerminals{
+    position: relative;
+    width:100%;
+    font-size: 0.75em;
+}
+.tableOfTerminalsTitles{
+    position: relative;
+    width:100%;
+    font-size: 1em;
+}
+#wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.tableOfTerminalsTitles tr{
+    position:relative;
+    width:100%;
+}
+td{
+    width:150px;
+    min-width: 150px;
+    max-width: 150px;
+    overflow:hidden;
+}
+.tableOfTerminalsTitles th{
+    width:150px;
+    min-width: 150px;
+    max-width: 150px;
+    overflow:hidden;
+}

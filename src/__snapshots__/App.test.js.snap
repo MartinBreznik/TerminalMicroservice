@@ -1,0 +1,719 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+    data-testid="appRootDiv"
+  >
+    <section
+      class="wrap"
+      data-testid="callTable"
+    >
+      <div
+        class="tableContainer"
+        data-testid="callTableDiv"
+        style="color: black;"
+      />
+    </section>
+    <h2>
+      New firmware
+    </h2>
+    <br />
+    <section
+      id="modal-wrap"
+    >
+      <div
+        class="wrapContainer"
+        style="color: black;"
+      >
+        <label
+          for="newName"
+        >
+          Name: 
+        </label>
+         
+        <br />
+        <input
+          id="newName"
+          name="newName"
+          type="text"
+        />
+         
+        <br />
+        <label
+          for="newDescription"
+        >
+          Description: 
+        </label>
+         
+        <br />
+        <input
+          id="newDescription"
+          name="newDescription"
+          type="text"
+        />
+         
+        <br />
+        <label
+          for="version"
+        >
+          Version: 
+        </label>
+         
+        <br />
+        <input
+          id="version"
+          name="version"
+          required=""
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="isEnabled"
+        >
+          Is the update enabled: 
+        </label>
+         
+        <br />
+        <select
+          id="isEnabled"
+          name="isEnabled"
+        >
+          <option
+            value="false"
+          >
+            False
+          </option>
+          <option
+            value="true"
+          >
+            True
+          </option>
+        </select>
+         
+        <br />
+        <label
+          for="isCritical"
+        >
+          Is the update critical: 
+        </label>
+         
+        <br />
+        <select
+          id="isCritical"
+          name="isCritical"
+        >
+          <option
+            value="false"
+          >
+            False
+          </option>
+          <option
+            value="true"
+          >
+            True
+          </option>
+        </select>
+         
+        <br />
+        <label
+          for="initialFile"
+        >
+          Select initial data: 
+        </label>
+         
+        <br />
+        <input
+          id="initialFile"
+          name="initialFile"
+          type="file"
+        />
+         
+        <br />
+        <label
+          for="updateFile"
+        >
+          Select update data: 
+        </label>
+         
+        <br />
+        <input
+          id="updateFile"
+          name="updateFile"
+          type="file"
+        />
+         
+        <br />
+        <button
+          class="firmwareUpload"
+          type="button"
+        >
+          Upload
+        </button>
+      </div>
+    </section>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Update firmware
+    </h2>
+    <br />
+    <section
+      id="modal-wrap"
+    >
+      <div
+        class="wrapContainer"
+        style="color: black;"
+      >
+        <label
+          for="firmwareId"
+        >
+          Firmware ID: 
+        </label>
+         
+        <br />
+        <input
+          id="firmwareId"
+          name="firmwareId"
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="updateName"
+        >
+          Name: 
+        </label>
+         
+        <br />
+        <input
+          id="updateName"
+          name="updateName"
+          type="text"
+        />
+         
+        <br />
+        <label
+          for="updateDescription"
+        >
+          Description: 
+        </label>
+         
+        <br />
+        <input
+          id="updateDescription"
+          name="updateDescription"
+          type="text"
+        />
+         
+        <br />
+        <label
+          for="version"
+        >
+          Version: 
+        </label>
+         
+        <br />
+        <input
+          id="version"
+          name="version"
+          required=""
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="isEnabled"
+        >
+          Is the update enabled: 
+        </label>
+         
+        <br />
+        <select
+          id="isEnabled"
+          name="isEnabled"
+        >
+          <option
+            value="false"
+          >
+            False
+          </option>
+          <option
+            value="true"
+          >
+            True
+          </option>
+        </select>
+         
+        <br />
+        <label
+          for="isCritical"
+        >
+          Is the update critical: 
+        </label>
+         
+        <br />
+        <select
+          id="isCritical"
+          name="isCritical"
+        >
+          <option
+            value="false"
+          >
+            False
+          </option>
+          <option
+            value="true"
+          >
+            True
+          </option>
+        </select>
+         
+        <br />
+        <button
+          class="firmwareUpload"
+          type="button"
+        >
+          Upload
+        </button>
+      </div>
+    </section>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Get by id
+    </h2>
+    <br />
+    <label
+      for="id"
+    >
+      Firmware id: 
+    </label>
+     
+    <br />
+    <input
+      id="id"
+      name="id"
+      type="number"
+    />
+     
+    <br />
+    <button
+      class="getById"
+      type="button"
+    >
+      Get firmware
+    </button>
+     
+    <br />
+    <h2>
+      Downloads
+    </h2>
+    <br />
+    <label
+      for="initialId"
+    >
+       Firmware id: 
+    </label>
+     
+    <br />
+    <input
+      id="initialId"
+      name="id"
+      type="number"
+    />
+     
+    <br />
+    <button
+      class="getById"
+      type="button"
+    >
+       Download firmware update 
+    </button>
+     
+    <br />
+    <label
+      for="initialId"
+    >
+       Firmware ID: 
+    </label>
+     
+    <br />
+    <input
+      id="initialId"
+      name="id"
+      type="number"
+    />
+     
+    <br />
+    <button
+      class="getById"
+      type="button"
+    >
+       Download firmware update 
+    </button>
+    <h2>
+      Delete
+    </h2>
+    <br />
+    <section
+      id="modal-wrap"
+    >
+      <div
+        class="wrapContainer"
+        style="color: black;"
+      >
+        <label
+          for="deleteId"
+        >
+          Firmware ID: 
+        </label>
+         
+        <br />
+        <input
+          id="deleteId"
+          name="deleteId"
+          type="number"
+        />
+         
+        <br />
+        <button
+          class="firmwareUpload"
+          type="button"
+        >
+          Delete firmware
+        </button>
+      </div>
+    </section>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Update firmware data
+    </h2>
+    <br />
+    <section
+      id="modal-wrap"
+    >
+      <div
+        class="wrapContainer"
+        style="color: black;"
+      >
+        <label
+          for="firmwareId"
+        >
+          Firmware ID: 
+        </label>
+         
+        <br />
+        <input
+          id="firmwareId"
+          name="firmwareId"
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="updateInitialFile"
+        >
+          Select initial data: 
+        </label>
+         
+        <br />
+        <input
+          id="updateInitialFile"
+          name="updateInitialFile"
+          type="file"
+        />
+         
+        <br />
+        <label
+          for="updateUpdateFile"
+        >
+          Select update data: 
+        </label>
+         
+        <br />
+        <input
+          id="updateUpdateFile"
+          name="updateUpdateFile"
+          type="file"
+        />
+         
+        <br />
+        <button
+          class="firmwareUpload"
+          type="button"
+        >
+          Upload
+        </button>
+      </div>
+    </section>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Create terminal update
+    </h2>
+    <br />
+    <section
+      id="modal-wrap"
+    >
+      <div
+        class="wrapContainer"
+        style="color: black;"
+      >
+        <label
+          for="firmwareId"
+        >
+          Firmware ID: 
+        </label>
+         
+        <br />
+        <input
+          id="firmwareId"
+          name="firmwareId"
+          required=""
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="terminals"
+        >
+          Terminal: 
+        </label>
+         
+        <br />
+        <input
+          class="terminalsInput"
+          name="terminals"
+          type="number"
+        />
+         
+        <br />
+        <button
+          class="terminalsButton"
+          type="button"
+        >
+          add more terminals
+        </button>
+         
+        <br />
+        <label
+          for="notes"
+        >
+          Notes: 
+        </label>
+         
+        <br />
+        <input
+          id="notes"
+          name="notes"
+          type="text"
+        />
+         
+        <br />
+        <button
+          class="firmwareUpload"
+          type="button"
+        >
+          Create update
+        </button>
+      </div>
+    </section>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Get info on terminal updates
+    </h2>
+    <br />
+    <div
+      id="updateContainer"
+    >
+      <label
+        for="id"
+      >
+        Firmware id: 
+      </label>
+       
+      <br />
+      <input
+        id="id"
+        name="id"
+        type="number"
+      />
+       
+      <br />
+      <button
+        class="getById"
+        type="button"
+      >
+        Get firmware
+      </button>
+       
+      <br />
+    </div>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Get details on terminal updates
+    </h2>
+    <br />
+    <div
+      id="terminalUpdateDetailsContainer"
+    >
+      <label
+        for="id"
+      >
+        Firmware id: 
+      </label>
+       
+      <br />
+      <input
+        id="id"
+        name="id"
+        type="number"
+      />
+       
+      <br />
+      <label
+        for="terminalId"
+      >
+        Terminal id: 
+      </label>
+       
+      <br />
+      <input
+        id="terminalId"
+        name="terminalId"
+        type="number"
+      />
+       
+      <br />
+      <button
+        class="getById"
+        type="button"
+      >
+        Get firmware
+      </button>
+       
+      <br />
+    </div>
+    <br />
+    <p>
+      --------------------------------------------
+    </p>
+    <br />
+    <h2>
+      Update terminal updates
+    </h2>
+    <br />
+    <section
+      id="modal-wrap"
+    >
+      <div
+        class="wrapContainer"
+        style="color: black;"
+      >
+        <label
+          for="firmwareId"
+        >
+          Firmware ID: 
+        </label>
+         
+        <br />
+        <input
+          id="firmwareId"
+          name="firmwareId"
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="updateTerminalId"
+        >
+          TerminalId: 
+        </label>
+         
+        <br />
+        <input
+          id="updateTerminalId"
+          name="updateTerminalId"
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="status"
+        >
+          status: 
+        </label>
+         
+        <br />
+        <input
+          id="status"
+          name="status"
+          type="number"
+        />
+         
+        <br />
+        <label
+          for="updateNotes"
+        >
+          New notes: 
+        </label>
+         
+        <br />
+        <input
+          id="updateNotes"
+          name="updateNotes"
+          required=""
+          type="text"
+        />
+         
+        <br />
+        <label
+          for="changedByUserId"
+        >
+          changed by user: 
+        </label>
+         
+        <br />
+        <input
+          id="changedByUserId"
+          name="changedByUserId"
+          required=""
+          type="number"
+        />
+         
+        <br />
+        <button
+          class="firmwareUpload"
+          type="button"
+        >
+          Upload
+        </button>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;
